@@ -1,0 +1,36 @@
+Última actualización: 11/06/2023 (dd/mm/aaaa)
+
+-------------------------------------
+
+DESCARGA AUTOMÁTICA (Windows 64 bitS)
+https://windows.php.net/downloads/releases/php-8.2.7-Win32-vs16-x64.zip
+
+DESCARGA AUTOMÁTICA (Windows 32 bitS)
+https://windows.php.net/downloads/releases/php-8.2.7-Win32-vs16-x86.zip
+
+-------------------------------------
+
+DESCARGA MANUAL
+1) Ir a → https://windows.php.net/download#php-8.2
+
+2-a) Si tu sistema es de 32 bits, click en 'Zip' debajo del título "VS16 x86 Thread Safe" para iniciar la descarga.
+
+2-b) Si tu sistema es de 64 bits, click en 'Zip' debajo del título "VS16 x64 Thread Safe" para iniciar la descarga.
+
+-------------------------------------
+
+INSTALACIÓN
+
+1) Una vez en la carpeta 'Descargas', extraer los archivos a la siguiente ruta: "C:\php".
+
+2) Abrí las variables de entorno (escribe 'variables de entorno' en el buscador de windows).
+
+3) Once inside the SEV window, click the 'Environment Variables' button on the bottom right corner.
+
+3) Once inside the Environment Variables, click on the 'Path' variable, then the 'Edit' button. A new window should pop up with a list of paths and column with buttons on the right side of the window.
+
+4) Click 'New' to create a new path, and type 'C:\php'. Once added, click 'Ok' on all pop-up windows.
+
+5) Open the command Prompt (type 'cmd' into the windows search bar and the option should pop up). In it, type: 'echo %PATH%', and make sure the new added path is at the end of the data printed on screen.
+
+6) Verify there are no errors and check current version of php by entering 'php -v'. If the version is displayed and no errors pop up, the installation was successful.
