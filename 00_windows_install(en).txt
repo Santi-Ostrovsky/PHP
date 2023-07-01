@@ -11,6 +11,7 @@ https://windows.php.net/downloads/releases/php-8.2.7-Win32-vs16-x86.zip
 -------------------------------------
 
 MANUAL DOWNLOAD (Windows)
+
 1) Go to https://windows.php.net/download#php-8.2
 
 2-a) If you have a 32 bit system, click on 'Zip' under the "VS16 x86 Thread Safe" title to start the download.
