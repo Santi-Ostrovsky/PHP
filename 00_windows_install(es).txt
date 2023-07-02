@@ -11,6 +11,7 @@ https://windows.php.net/downloads/releases/php-8.2.7-Win32-vs16-x86.zip
 -------------------------------------
 
 DESCARGA MANUAL
+
 1) Ir a → https://windows.php.net/download#php-8.2
 
 2-a) Si tu sistema es de 32 bits, click en 'Zip' debajo del título "VS16 x86 Thread Safe" para iniciar la descarga.
@@ -21,16 +22,18 @@ DESCARGA MANUAL
 
 INSTALACIÓN
 
-1) Una vez en la carpeta 'Descargas', extraer los archivos a la siguiente ruta: "C:\php".
+1) Una vez en la carpeta 'Descargas', extraer los archivos a la siguiente ruta: "C:\php" (y copiar la ruta).
 
-2) Abrí las variables de entorno (escribe 'variables de entorno' en el buscador de windows).
+2) Editar las variables de entorno (escribir 'variables de entorno' en el buscador de windows).
+    (Windows 10) -> Dentro de la ventana de VDE, hacer click en 'Variables de Entorno' en la esquina inferior derecha.
 
-3) Once inside the SEV window, click the 'Environment Variables' button on the bottom right corner.
+3) En las Variables de Entorno, hacer click en la variable 'Path', y en el botón 'Editar'.
+    Una nueva ventana debería abrirse con una lista de rutas y una columna con botones a la derecha de la ventana.
 
-3) Once inside the Environment Variables, click on the 'Path' variable, then the 'Edit' button. A new window should pop up with a list of paths and column with buttons on the right side of the window.
+4) Hacer click en 'Nueva' para crear una nueva ruta, e ingresar: 'C:\php' (o la ruta en la que PHP fue extraído).
+    Creada la ruta, hacer click en 'Ok' / 'Aceptar' en todas las ventanas emergentes.
 
-4) Click 'New' to create a new path, and type 'C:\php'. Once added, click 'Ok' on all pop-up windows.
+5) Abrir la Terminal de Comandos de Windows ('cmd' en la barra de búsqueda del sistema).
+    En la terminal, ingresar: 'echo %PATH%', y verificar que la nueva ruta fue agregada al final de la data mostrada en pantalla.
 
-5) Open the command Prompt (type 'cmd' into the windows search bar and the option should pop up). In it, type: 'echo %PATH%', and make sure the new added path is at the end of the data printed on screen.
-
-6) Verify there are no errors and check current version of php by entering 'php -v'. If the version is displayed and no errors pop up, the installation was successful.
+6) Verificar que no hayan errores y revisar versión actual del lenguaje ingresando el comando 'php -v'. Si la versión se muestra sin errores, la instalación fue exitosa.

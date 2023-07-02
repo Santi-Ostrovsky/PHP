@@ -1,9 +1,14 @@
-<!-- 
-    For PHP Docs and Manual, enter https://www.php.net/manual/en/index.php
+<!--
 
-SIEMPRE TERMINAR LAS LINEAS CON ';'
+For PHP Docs and Manual, enter https://www.php.net/manual/en/index.php
 
-DECLARACIÓN DE VARIABLES --→ $
+
+REGLA GENERAL DE PHP:
+    - Siempre terminar las líneas con punto y coma -> ';'
+
+-------------------------------------
+
+DECLARACIÓN DE VARIABLES -→ $
 
 TIPOS DE DATOS:
     - String (cadena de texto)

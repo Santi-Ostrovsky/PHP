@@ -22,14 +22,19 @@ MANUAL DOWNLOAD (Windows)
 
 INSTALLATION
 
-1) Once on downloads folder, extract the files into the following route: "C:\php".
+1) Once on downloads folder, extract the files into the following route: "C:\php" (and copy the route).
 
-2) Edit the system environment variables (type environment into windows search bar and the option will pop up). Once inside the SEV window, click the 'Environment Variables' button on the bottom right corner.
+2) Edit the system environment variables (type environment into windows search bar and the option will pop up).
+    (In windows 10) -> Once inside the SEV window, click the 'Environment Variables' button on the bottom right corner.
 
-3) Once inside the Environment Variables, click on the 'Path' variable, then the 'Edit' button. A new window should pop up with a list of paths and column with buttons on the right side of the window.
+3) Once inside the Environment Variables, click on the 'Path' variable, then the 'Edit' button.
+    A new window should pop up with a list of paths and column with buttons on the right side of the window.
 
-4) Click 'New' to create a new path, and type 'C:\php'. Once added, click 'Ok' on all pop-up windows.
+4) Click 'New' to create a new path, and type 'C:\php' (or the path where PHP was extracted).
+    Once added, click 'Ok' on all pop-up windows.
 
-5) Open the command Prompt (type 'cmd' into the windows search bar and the option should pop up). In it, type: 'echo %PATH%', and make sure the new added path is at the end of the data printed on screen.
+5) Open the command Prompt (type 'cmd' into the windows search bar and the option should pop up).
+    In it, type: 'echo %PATH%', and make sure the new added path is at the end of the data printed on screen.
 
-6) Verify there are no errors and check current version of php by entering 'php -v'. If the version is displayed and no errors pop up, the installation was successful.
+6) Verify there are no errors and check current version of php by entering 'php -v'.
+    If the version is displayed and no errors pop up, the installation was successful.
