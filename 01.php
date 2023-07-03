@@ -6,7 +6,7 @@ For PHP Docs and Manual, enter https://www.php.net/manual/en/index.php
 REGLA GENERAL DE PHP:
     - Siempre terminar las líneas con punto y coma -> ';'
 
--------------------------------------
+***********************************
 
 DECLARACIÓN DE VARIABLES -→ $
 
